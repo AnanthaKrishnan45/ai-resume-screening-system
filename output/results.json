@@ -1,0 +1,3030 @@
+{
+  "metadata": {
+    "system": "AI Resume Screening & Ranking System",
+    "scoring_total": 100,
+    "weights": {
+      "ai_project_depth": 40,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 10,
+      "engineering_depth": 5
+    },
+    "input_directory": "resumes"
+  },
+  "batch_summary": {
+    "total_resumes_discovered": 50,
+    "successfully_parsed": 50,
+    "eligible": 32,
+    "rejected": 18,
+    "failed_or_duplicate": 0
+  },
+  "ranked_eligible_candidates": [
+    {
+      "candidate_name": "Yash Maini",
+      "source_file": "candidate_13.pdf",
+      "email": "mainiyash2@gmail.com",
+      "github_username": "Yashmaini30",
+      "github_url": "https://github.com/Yashmaini30",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 53,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 12,
+        "github": 10,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "api",
+        "async",
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "docker",
+        "embeddings",
+        "faiss",
+        "fastapi",
+        "flask",
+        "gcp",
+        "generative ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "numpy",
+        "pandas",
+        "postgresql",
+        "python",
+        "pytorch",
+        "rag",
+        "scikit-learn",
+        "semantic search",
+        "sql",
+        "tensorflow",
+        "tool calling",
+        "tool-calling"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, flask, api, backend, async"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "flask",
+          "pandas",
+          "numpy",
+          "scikit-learn",
+          "pytorch",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "embeddings",
+          "tool calling",
+          "tool-calling",
+          "multi-agent",
+          "llm",
+          "generative ai",
+          "semantic search",
+          "faiss"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "47 public repositories; 28 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 47,
+        "relevant_repositories": 28
+      },
+      "rank": 1
+    },
+    {
+      "candidate_name": "Gourab Das",
+      "source_file": "candidate_17.pdf",
+      "email": "gourabdas1307@gmail.com",
+      "github_username": "gdas37467",
+      "github_url": "https://github.com/gdas37467",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 52,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 12,
+        "github": 9,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "django",
+        "docker",
+        "fastapi",
+        "flask",
+        "langchain",
+        "langgraph",
+        "milvus",
+        "postgresql",
+        "pytest",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "semantic search",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, flask, backend, postgresql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django",
+          "flask",
+          "pytest"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "semantic search",
+          "milvus"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "21 public repositories; 4 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 9,
+        "public_repositories": 21,
+        "relevant_repositories": 4
+      },
+      "rank": 2
+    },
+    {
+      "candidate_name": "ABHINAV MISHRA",
+      "source_file": "candidate_10.pdf",
+      "email": "abhinavmishra3322@gmail.com",
+      "github_username": "AbhinavMishra32",
+      "github_url": "https://github.com/AbhinavMishra32",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 50,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 27,
+        "cloud_fullstack": 10,
+        "github": 10,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "azure",
+        "backend",
+        "ci/cd",
+        "fastapi",
+        "generative ai",
+        "langgraph",
+        "next.js",
+        "openai api",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "vercel"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langgraph",
+          "rag",
+          "agentic",
+          "openai api",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "61 public repositories; 18 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 61,
+        "relevant_repositories": 18
+      },
+      "rank": 3
+    },
+    {
+      "candidate_name": "Arjun Kumar",
+      "source_file": "candidate_08.pdf",
+      "email": "roy.prajapat.143@gmail.com",
+      "github_username": "arjunkumaritsme12",
+      "github_url": "https://github.com/arjunkumaritsme12",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 50,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 8,
+        "github": 10,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "async",
+        "aws",
+        "backend",
+        "ci/cd",
+        "django",
+        "embeddings",
+        "fastapi",
+        "generative ai",
+        "langchain",
+        "langgraph",
+        "next.js",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "scikit-learn",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, api, backend, async"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django",
+          "scikit-learn",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "embeddings",
+          "agentic",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "26 public repositories; 13 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 26,
+        "relevant_repositories": 13
+      },
+      "rank": 4
+    },
+    {
+      "candidate_name": "Vivek Chimnani",
+      "source_file": "candidate_44.pdf",
+      "email": "vivekchimnani4231@gmail.com",
+      "github_username": "Vivekk-11",
+      "github_url": "https://github.com/Vivekk-11",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 50,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 27,
+        "cloud_fullstack": 10,
+        "github": 10,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "ci/cd",
+        "docker",
+        "fastapi",
+        "langgraph",
+        "llm",
+        "next.js",
+        "postgresql",
+        "python",
+        "react",
+        "redis"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langgraph",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "70 public repositories; 7 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 70,
+        "relevant_repositories": 7
+      },
+      "rank": 5
+    },
+    {
+      "candidate_name": "Hari Shanker Sharma",
+      "source_file": "candidate_41.pdf",
+      "email": "harishankersharma648@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 49,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "matched_skills": [
+        "api",
+        "async",
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "docker",
+        "embeddings",
+        "fastapi",
+        "kubernetes",
+        "langchain",
+        "langgraph",
+        "llm",
+        "next.js",
+        "numpy",
+        "openai api",
+        "pandas",
+        "postgresql",
+        "pytest",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "semantic search",
+        "sql",
+        "vector search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, async, postgresql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "pandas",
+          "numpy",
+          "pytest"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "vector search",
+          "embeddings",
+          "llm",
+          "openai api",
+          "semantic search"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 6
+    },
+    {
+      "candidate_name": "Kiran Naregal",
+      "source_file": "candidate_47.pdf",
+      "email": "kirnaregal7@gmail.com",
+      "github_username": "kiran-naregal",
+      "github_url": "https://github.com/kiran-naregal",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 48,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 29,
+        "cloud_fullstack": 12,
+        "github": 5,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "aws",
+        "backend",
+        "deployed",
+        "deployment",
+        "docker",
+        "fastapi",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "next.js",
+        "pandas",
+        "pydantic",
+        "python",
+        "react",
+        "sql",
+        "transformers"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, sql, pydantic"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "pandas"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "transformers"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "8 public repositories; 1 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 5,
+        "public_repositories": 8,
+        "relevant_repositories": 1
+      },
+      "rank": 7
+    },
+    {
+      "candidate_name": "V Sree Raghu Vardhan",
+      "source_file": "candidate_30.pdf",
+      "email": "vardhanvsr2004@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 47,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 14,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "api",
+        "async",
+        "aws",
+        "azure",
+        "backend",
+        "ci/cd",
+        "deployment",
+        "django",
+        "docker",
+        "embeddings",
+        "fastapi",
+        "kubernetes",
+        "langchain",
+        "langgraph",
+        "llm",
+        "openai api",
+        "postgresql",
+        "pydantic",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "semantic search",
+        "sql",
+        "vector search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, api, backend, async"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "vector search",
+          "embeddings",
+          "llm",
+          "openai api",
+          "semantic search"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 8
+    },
+    {
+      "candidate_name": "Aditi Kala",
+      "source_file": "candidate_37.pdf",
+      "email": "aditi25.kala@gmail.com",
+      "github_username": "why-aditi",
+      "github_url": "https://github.com/why-aditi",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 46,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 6,
+        "github": 10,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "api",
+        "backend",
+        "docker",
+        "fastapi",
+        "flask",
+        "google cloud",
+        "llm",
+        "postgres",
+        "postgresql",
+        "python",
+        "pytorch",
+        "react",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, flask, api, backend, postgresql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "flask",
+          "pytorch",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "53 public repositories; 23 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 53,
+        "relevant_repositories": 23
+      },
+      "rank": 9
+    },
+    {
+      "candidate_name": "PAVANI A",
+      "source_file": "candidate_38.pdf",
+      "email": "pavani10112004@gmail.com",
+      "github_username": "Pavani-A",
+      "github_url": "https://github.com/Pavani-A",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 46,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 6,
+        "github": 10,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "api",
+        "backend",
+        "ci/cd",
+        "django",
+        "docker",
+        "fastapi",
+        "flask",
+        "generative ai",
+        "llm",
+        "next.js",
+        "numpy",
+        "pandas",
+        "postgresql",
+        "python",
+        "scikit-learn",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, flask, api, backend"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django",
+          "flask",
+          "pandas",
+          "numpy",
+          "scikit-learn",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "llm",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "16 public repositories; 5 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 16,
+        "relevant_repositories": 5
+      },
+      "rank": 10
+    },
+    {
+      "candidate_name": "Prathamesh Patil",
+      "source_file": "candidate_35.pdf",
+      "email": "prathameshpatil330@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 46,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 14,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "aws",
+        "chromadb",
+        "ci/cd",
+        "deployed",
+        "docker",
+        "embeddings",
+        "fastapi",
+        "kubernetes",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "next.js",
+        "postgresql",
+        "pydantic",
+        "python",
+        "pytorch",
+        "rag",
+        "react",
+        "redis",
+        "scikit-learn",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, postgresql, redis, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "scikit-learn",
+          "pytorch",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "langgraph",
+          "rag",
+          "embeddings",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "chromadb"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 11
+    },
+    {
+      "candidate_name": "Thejeshwaar Paasila",
+      "source_file": "candidate_26.pdf",
+      "email": "thejeshwaarp@gmail.com",
+      "github_username": "tejaharleys",
+      "github_url": "https://github.com/tejaharleys",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 46,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 27,
+        "cloud_fullstack": 15,
+        "github": 3,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "api",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "docker",
+        "flask",
+        "generative ai",
+        "google cloud",
+        "llm",
+        "next.js",
+        "openai api",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "sql",
+        "transformers",
+        "vercel"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, api, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask"
+        ],
+        "ai_terms": [
+          "rag",
+          "llm",
+          "openai api",
+          "transformers",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "3 public repositories; 1 Python/AI-relevant repositories; recent activity signal 2/5.",
+        "score": 3,
+        "public_repositories": 3,
+        "relevant_repositories": 1
+      },
+      "rank": 12
+    },
+    {
+      "candidate_name": "PRAJWAL A S",
+      "source_file": "candidate_22.pdf",
+      "email": "prajwalas8999@gmail.com",
+      "github_username": "prajwalas1",
+      "github_url": "https://github.com/prajwalas1",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 45,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 28,
+        "cloud_fullstack": 6,
+        "github": 9,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "api",
+        "async",
+        "backend",
+        "deployed",
+        "embeddings",
+        "fastapi",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "postgresql",
+        "pydantic",
+        "python",
+        "rag",
+        "react",
+        "sql",
+        "tool-calling",
+        "vercel"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, async, postgresql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "embeddings",
+          "tool-calling",
+          "multi-agent",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "32 public repositories; 13 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 9,
+        "public_repositories": 32,
+        "relevant_repositories": 13
+      },
+      "rank": 13
+    },
+    {
+      "candidate_name": "Sumaiya Sultana Shaik",
+      "source_file": "candidate_28.pdf",
+      "email": "sultanasumaiya623@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 43,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "backend",
+        "ci/cd",
+        "deployment",
+        "docker",
+        "fastapi",
+        "gcp",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "postgresql",
+        "pytest",
+        "python",
+        "rag",
+        "react",
+        "scikit-learn",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "pytest",
+          "scikit-learn"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "multi-agent",
+          "agentic",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 14
+    },
+    {
+      "candidate_name": "Vaibhav Wakde",
+      "source_file": "candidate_33.pdf",
+      "email": "vaibhavwakde266@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 42,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "aws",
+        "backend",
+        "chromadb",
+        "deployed",
+        "deployment",
+        "docker",
+        "embedding",
+        "fastapi",
+        "flask",
+        "langchain",
+        "langgraph",
+        "llamaindex",
+        "llm",
+        "numpy",
+        "openai api",
+        "pandas",
+        "pytest",
+        "python",
+        "rag",
+        "sql",
+        "tool calling",
+        "transformers",
+        "weaviate"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, flask, api, backend, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "flask",
+          "pandas",
+          "numpy",
+          "pytest"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "llamaindex",
+          "rag",
+          "embedding",
+          "tool calling",
+          "agentic",
+          "llm",
+          "openai api",
+          "transformers",
+          "chromadb",
+          "weaviate"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 15
+    },
+    {
+      "candidate_name": "ARUNIMA SAHA",
+      "source_file": "candidate_43.pdf",
+      "email": "arunimasaha11@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 41,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 28,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "aws",
+        "backend",
+        "deployed",
+        "deployment",
+        "docker",
+        "embedding",
+        "embeddings",
+        "fastapi",
+        "generative ai",
+        "google cloud",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "openai api",
+        "postgresql",
+        "pydantic",
+        "python",
+        "rag",
+        "sql",
+        "tool calling",
+        "transformers",
+        "vector database",
+        "vector search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "vector database",
+          "vector search",
+          "embeddings",
+          "embedding",
+          "tool calling",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "openai api",
+          "transformers",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 16
+    },
+    {
+      "candidate_name": "Nevil Jasmin Mehta",
+      "source_file": "candidate_50.pdf",
+      "email": "nevilmehta5@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 41,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 30,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "async",
+        "aws",
+        "backend",
+        "deployed",
+        "deployment",
+        "django",
+        "docker",
+        "embeddings",
+        "fastapi",
+        "flask",
+        "haystack",
+        "llm",
+        "numpy",
+        "pandas",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, flask, backend, async"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django",
+          "flask",
+          "pandas",
+          "numpy"
+        ],
+        "ai_terms": [
+          "rag",
+          "embeddings",
+          "llm",
+          "haystack"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 17
+    },
+    {
+      "candidate_name": "Vivek Shekhawat",
+      "source_file": "candidate_39.pdf",
+      "email": "vivekshekhawatofficial1592002@gmail.com",
+      "github_username": "Vivek1592002",
+      "github_url": "https://github.com/Vivek1592002",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 41,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 27,
+        "cloud_fullstack": 4,
+        "github": 9,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "api",
+        "backend",
+        "django",
+        "embedding",
+        "embeddings",
+        "langchain",
+        "langgraph",
+        "llm",
+        "next.js",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "sql",
+        "vector search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: django, api, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "django"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "vector search",
+          "embeddings",
+          "embedding",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "15 public repositories; 6 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 9,
+        "public_repositories": 15,
+        "relevant_repositories": 6
+      },
+      "rank": 18
+    },
+    {
+      "candidate_name": "Atul Kumar",
+      "source_file": "candidate_25.pdf",
+      "email": "atulofficial02@gmail.com",
+      "github_username": "atulkumar2025",
+      "github_url": "https://github.com/atulkumar2025",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 40,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 23,
+        "cloud_fullstack": 8,
+        "github": 9,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "api",
+        "deployed",
+        "deployment",
+        "flask",
+        "gcp",
+        "generative ai",
+        "google cloud",
+        "numpy",
+        "pandas",
+        "python",
+        "scikit-learn",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, api, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask",
+          "pandas",
+          "numpy",
+          "scikit-learn"
+        ],
+        "ai_terms": [
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "9 public repositories; 7 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 9,
+        "public_repositories": 9,
+        "relevant_repositories": 7
+      },
+      "rank": 19
+    },
+    {
+      "candidate_name": "Saif Ali Nagori",
+      "source_file": "candidate_36.pdf",
+      "email": "saifalinagori78@gmail.com",
+      "github_username": "Nagorisaifali",
+      "github_url": "https://github.com/Nagorisaifali",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 40,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 26,
+        "cloud_fullstack": 4,
+        "github": 10,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "api",
+        "backend",
+        "deployment",
+        "fastapi",
+        "flask",
+        "llm",
+        "python",
+        "rag",
+        "react"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, flask, api, backend"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "flask"
+        ],
+        "ai_terms": [
+          "rag",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "26 public repositories; 10 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 26,
+        "relevant_repositories": 10
+      },
+      "rank": 20
+    },
+    {
+      "candidate_name": "RAJ THUMAR",
+      "source_file": "candidate_40.pdf",
+      "email": "thumarraj999@gmail.com",
+      "github_username": "raj-github",
+      "github_url": "https://github.com/raj-github",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 33,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 27,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "docker",
+        "flask",
+        "llm",
+        "postgresql",
+        "python",
+        "rag",
+        "redis"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, api, backend, postgresql, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask"
+        ],
+        "ai_terms": [
+          "rag",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "0 public repositories; 0 Python/AI-relevant repositories; recent activity signal 0/5.",
+        "score": 0,
+        "public_repositories": 0,
+        "relevant_repositories": 0
+      },
+      "rank": 21
+    },
+    {
+      "candidate_name": "KRISHAN KANT",
+      "source_file": "candidate_09.pdf",
+      "email": "krishankantptu@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 32,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 26,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "api",
+        "async",
+        "backend",
+        "docker",
+        "langchain",
+        "llm",
+        "openai api",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "sql",
+        "vector search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, async, postgresql, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python"
+        ],
+        "ai_terms": [
+          "langchain",
+          "rag",
+          "vector search",
+          "llm",
+          "openai api"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 22
+    },
+    {
+      "candidate_name": "VIKRAM MADHYASTA",
+      "source_file": "candidate_29.pdf",
+      "email": "vikrammadyasta@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 32,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 21,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployment",
+        "docker",
+        "kubernetes",
+        "openai api",
+        "python",
+        "scikit-learn",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "scikit-learn"
+        ],
+        "ai_terms": [
+          "openai api"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 23
+    },
+    {
+      "candidate_name": "M SAI KUSHITH",
+      "source_file": "candidate_06.pdf",
+      "email": "msaikushith718@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 31,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 29,
+        "cloud_fullstack": 2,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "backend",
+        "django",
+        "fastapi",
+        "generative ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "scikit-learn",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, django, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "django",
+          "scikit-learn"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "llm",
+          "generative ai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 24
+    },
+    {
+      "candidate_name": "HARSHA A",
+      "source_file": "candidate_15.pdf",
+      "email": "harshaarun2608@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 30,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 26,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "azure",
+        "backend",
+        "docker",
+        "embedding",
+        "fastapi",
+        "numpy",
+        "pandas",
+        "postgresql",
+        "python",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, backend, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "pandas",
+          "numpy",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "embedding"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 25
+    },
+    {
+      "candidate_name": "Jyandeep Baishya",
+      "source_file": "candidate_07.pdf",
+      "email": "craftzyan@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 29,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 24,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "backend",
+        "chromadb",
+        "fastapi",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "next.js",
+        "python",
+        "rag",
+        "react",
+        "redis",
+        "tool calling",
+        "tool-calling"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "tool calling",
+          "tool-calling",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "chromadb"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 26
+    },
+    {
+      "candidate_name": "P.V. Jayavardhana Sai",
+      "source_file": "candidate_19.pdf",
+      "email": "pvjayavardhan6@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 29,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 20,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "aws",
+        "deployed",
+        "docker",
+        "flask",
+        "llm",
+        "python",
+        "pytorch",
+        "rag",
+        "react",
+        "scikit-learn",
+        "sql",
+        "tensorflow",
+        "transformers"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask",
+          "scikit-learn",
+          "pytorch",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "rag",
+          "llm",
+          "transformers"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 27
+    },
+    {
+      "candidate_name": "PRIYANSHU KUMAR",
+      "source_file": "candidate_16.pdf",
+      "email": "krpriyanshu2805@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 29,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 24,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "backend",
+        "crewai",
+        "deployed",
+        "embeddings",
+        "fastapi",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multi-agent",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "tool calling"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langchain",
+          "langgraph",
+          "rag",
+          "embeddings",
+          "tool calling",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "crewai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 28
+    },
+    {
+      "candidate_name": "SHUBHANSHU NAVADIYA",
+      "source_file": "candidate_12.pdf",
+      "email": "subhnavadiya@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 28,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 26,
+        "cloud_fullstack": 2,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "agentic",
+        "api",
+        "autogen",
+        "backend",
+        "crewai",
+        "deployed",
+        "embeddings",
+        "fastapi",
+        "generative ai",
+        "langchain",
+        "llamaindex",
+        "llm",
+        "multi-agent",
+        "numpy",
+        "openai api",
+        "pandas",
+        "python",
+        "pytorch",
+        "rag",
+        "scikit-learn",
+        "semantic search",
+        "sql",
+        "transformers",
+        "weaviate"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi",
+          "pandas",
+          "numpy",
+          "scikit-learn",
+          "pytorch"
+        ],
+        "ai_terms": [
+          "langchain",
+          "llamaindex",
+          "rag",
+          "embeddings",
+          "multi-agent",
+          "agentic",
+          "llm",
+          "openai api",
+          "transformers",
+          "generative ai",
+          "semantic search",
+          "weaviate",
+          "autogen",
+          "crewai"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 29
+    },
+    {
+      "candidate_name": "ANNISHA S",
+      "source_file": "candidate_23.pdf",
+      "email": "annishasaravanan83@gmail.com",
+      "github_username": "annishasaravan",
+      "github_url": "https://github.com/annishasaravan",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 23,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 21,
+        "cloud_fullstack": 2,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "azure",
+        "fastapi",
+        "langgraph",
+        "llm",
+        "postgresql",
+        "python",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, postgresql, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [
+          "langgraph",
+          "llm"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "failed",
+        "summary": "GitHub profile not found or unavailable; screening continued without GitHub score.",
+        "score": 0
+      },
+      "rank": 30
+    },
+    {
+      "candidate_name": "DORNIPADU KARTHIKA CHAITRIKA",
+      "source_file": "candidate_24.pdf",
+      "email": "dornipadukarthi@gmail.com",
+      "github_username": "KarthikaDornipadu",
+      "github_url": "https://github.com/KarthikaDornipadu",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 22,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 15,
+        "cloud_fullstack": 0,
+        "github": 7,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "agentic",
+        "django",
+        "embeddings",
+        "generative ai",
+        "python",
+        "rag",
+        "semantic search"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: django"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "django"
+        ],
+        "ai_terms": [
+          "rag",
+          "embeddings",
+          "agentic",
+          "generative ai",
+          "semantic search"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "20 public repositories; 12 Python/AI-relevant repositories; recent activity signal 2/5.",
+        "score": 7,
+        "public_repositories": 20,
+        "relevant_repositories": 12
+      },
+      "rank": 31
+    },
+    {
+      "candidate_name": "Aswin Raj R",
+      "source_file": "candidate_49.pdf",
+      "email": "aswinrajr12@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 20,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 18,
+        "cloud_fullstack": 2,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [
+        "aws",
+        "backend",
+        "langchain",
+        "python",
+        "rag",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: backend, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "tensorflow"
+        ],
+        "ai_terms": [
+          "langchain",
+          "rag"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": 32
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "candidate_name": "AABHAR GUPTA",
+      "source_file": "candidate_46.pdf",
+      "email": "aabhargupta2310@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "ci/cd",
+        "google cloud",
+        "postgresql",
+        "react",
+        "redis"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, postgresql, redis"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "Limited Python/backend implementation evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Agam Jain",
+      "source_file": "candidate_03.pdf",
+      "email": "jainagam4@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "docker",
+        "fastapi",
+        "next.js",
+        "postgresql",
+        "python",
+        "react",
+        "redis",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: fastapi, api, backend, postgresql, redis"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "fastapi"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "ANJALI PATIL",
+      "source_file": "candidate_42.pdf",
+      "email": "anjalipatil1220@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "docker",
+        "microservice",
+        "postgresql",
+        "redis",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, postgresql, redis, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "contribute to innovative projects.",
+      "source_file": "candidate_20.pdf",
+      "email": "priyaraguraman29@gmail.com",
+      "github_username": "Priya291102",
+      "github_url": "https://github.com/Priya291102",
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "python",
+        "react",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "Limited Python/backend implementation evidence"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "6 public repositories; 2 Python/AI-relevant repositories; recent activity signal 2/5.",
+        "score": 4,
+        "public_repositories": 6,
+        "relevant_repositories": 2
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Gayathri Palraj",
+      "source_file": "candidate_27.pdf",
+      "email": "gayathri.2842004@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "python",
+        "react",
+        "sql",
+        "vercel"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Harshit Kumar Mishra",
+      "source_file": "candidate_18.pdf",
+      "email": "jmd.harshitmishra@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "ci/cd",
+        "docker",
+        "gcp",
+        "next.js",
+        "postgresql",
+        "react",
+        "redis",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, postgresql, redis, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Higher Secondary Science- PCMB",
+      "source_file": "candidate_21.pdf",
+      "email": "manojkumar.k.r0904@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "backend",
+        "deployed",
+        "deployment",
+        "flask",
+        "numpy",
+        "pandas",
+        "python",
+        "pytorch",
+        "react",
+        "scikit-learn",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, backend, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask",
+          "pandas",
+          "numpy",
+          "scikit-learn",
+          "pytorch",
+          "tensorflow"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "JAYA NANDI",
+      "source_file": "candidate_14.pdf",
+      "email": "jaya85300@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "aws",
+        "numpy",
+        "pandas",
+        "python",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "pandas",
+          "numpy"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Kartikay Sinha",
+      "source_file": "candidate_01.pdf",
+      "email": "kartikay.sinha17@gmail.com",
+      "github_username": "KS1745",
+      "github_url": "https://github.com/KS1745",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "docker",
+        "next.js",
+        "react",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "Limited Python/backend implementation evidence"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "88 public repositories; 7 Python/AI-relevant repositories; recent activity signal 2/5.",
+        "score": 7,
+        "public_repositories": 88,
+        "relevant_repositories": 7
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "MD AZIZUL ISLAM",
+      "source_file": "candidate_11.pdf",
+      "email": "mdazizul8741@gmail.com",
+      "github_username": "Azizul-11",
+      "github_url": "https://github.com/Azizul-11",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "deployment",
+        "embeddings",
+        "llm",
+        "microservice",
+        "postgresql",
+        "rag",
+        "react",
+        "redis",
+        "semantic search",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, postgresql, redis, sql"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [
+          "rag",
+          "embeddings",
+          "llm",
+          "semantic search"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "100 public repositories; 11 Python/AI-relevant repositories; recent activity signal 5/5.",
+        "score": 10,
+        "public_repositories": 100,
+        "relevant_repositories": 11
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Mukul Pal",
+      "source_file": "candidate_32.pdf",
+      "email": "mukulpal0333@gmail.com",
+      "github_username": "mukulpal03",
+      "github_url": "https://github.com/mukulpal03",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "async",
+        "aws",
+        "backend",
+        "ci/cd",
+        "deployed",
+        "docker",
+        "llm",
+        "next.js",
+        "openai api",
+        "postgresql",
+        "react",
+        "redis"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, async, postgresql, redis"
+      ],
+      "concerns": [
+        "AI evidence found outside project section; project implementation needs verification"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [
+          "llm",
+          "openai api"
+        ],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "27 public repositories; 12 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 9,
+        "public_repositories": 27,
+        "relevant_repositories": 12
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "NIDHI KM",
+      "source_file": "candidate_48.pdf",
+      "email": "nidhikmgowda24@gmail.com",
+      "github_username": "Nidhi-km",
+      "github_url": "https://github.com/Nidhi-km",
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "aws",
+        "backend",
+        "deployed",
+        "deployment",
+        "python",
+        "react",
+        "sql",
+        "tensorflow"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "tensorflow"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "success",
+        "summary": "5 public repositories; 1 Python/AI-relevant repositories; recent activity signal 4/5.",
+        "score": 5,
+        "public_repositories": 5,
+        "relevant_repositories": 1
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "NISARGA H. S.",
+      "source_file": "candidate_34.pdf",
+      "email": "nisarga20suresh@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "backend",
+        "ci/cd",
+        "python"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: backend"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "Limited Python/backend implementation evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Parshuram Kumar",
+      "source_file": "candidate_45.pdf",
+      "email": "parshuramkumarofficial725@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "async",
+        "aws",
+        "azure",
+        "backend",
+        "ci/cd",
+        "deployment",
+        "django",
+        "docker",
+        "flask",
+        "python",
+        "react",
+        "redis"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: django, flask, api, backend, async"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "django",
+          "flask"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "SHIVAM RAJ",
+      "source_file": "candidate_02.pdf",
+      "email": "shivam2kraj@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "azure",
+        "backend",
+        "ci/cd",
+        "deployment",
+        "docker",
+        "next.js",
+        "react"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "Limited Python/backend implementation evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Shreya Chauhan",
+      "source_file": "candidate_31.pdf",
+      "email": "chauhanshreya140@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "python",
+        "redis",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: api, backend, redis, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "VISHWAS BADIGER",
+      "source_file": "candidate_05.pdf",
+      "email": "Vishwasbadiger240@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "backend",
+        "deployed",
+        "flask",
+        "python",
+        "scikit-learn"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: flask, api, backend"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "flask",
+          "scikit-learn"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    },
+    {
+      "candidate_name": "Yuvaraj R",
+      "source_file": "candidate_04.pdf",
+      "email": "yuvi.2003kce@gmail.com",
+      "github_username": null,
+      "github_url": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/LLM/agentic project or implementation evidence"
+      ],
+      "total_score": 0,
+      "score_breakdown": null,
+      "matched_skills": [
+        "api",
+        "deployed",
+        "django",
+        "docker",
+        "numpy",
+        "pandas",
+        "postgresql",
+        "python",
+        "scikit-learn",
+        "sql"
+      ],
+      "project_summary": "No dedicated project section detected.",
+      "strengths": [
+        "Backend signals: django, api, postgresql, sql"
+      ],
+      "concerns": [
+        "Limited explicit AI project-depth evidence",
+        "No GitHub profile detected"
+      ],
+      "evidence": {
+        "python_terms": [
+          "python",
+          "django",
+          "pandas",
+          "numpy",
+          "scikit-learn"
+        ],
+        "ai_terms": [],
+        "project_signals": [],
+        "project_implementation_lines": []
+      },
+      "github_enrichment": {
+        "status": "not_available",
+        "summary": "No GitHub profile found in resume.",
+        "score": 0
+      },
+      "rank": null
+    }
+  ],
+  "failures": []
+}
